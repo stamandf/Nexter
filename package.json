@@ -12,8 +12,9 @@
     "compress:css": "node-sass public/css/style.prefix.css public/css/style.css --output-style compressed",
     "build:css": "yarn compile:sass & yarn prefix:css & yarn compress:css"
   },
+  "repository": "git@github.com:stamandf/Nexter.git",
   "author": "Florence St-Amand",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },
